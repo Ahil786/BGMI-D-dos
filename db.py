@@ -1,21 +1,12 @@
 import sqlite3
 
 default_admins = [
-    (1, '1027596128', 1),
-    (2, '1027596128', 2),
-    (3, '1027596128', 3),
-    (4, '1027596128', 4),
-    (5, '1027596128', 5),
-    (6, '6141252240', 2),
-    (7, '1068178978', 3),
-    (8, '5082235604', 4),
-    (9, '1157789561', 5)
+    (1, '6311287089', 1),
 ]
-token = '7345507165:AAGc5EofxRG406P4fjKrzMhvhD0aY-kvJ8w'
-bot_name = 'BGMI D-DoS BOT'
-bot_username = '@BGMI_D_DoS_RoBot'
-owner_username = '@PANEL_EXPERT'
-channel_username = '@DARKESPYT'
+token = '6311287089:AAGVko0iEU0WMN1eIDEMCZE0ApCJJLL-imM'
+bot_name = 'Cyber Max'
+bot_username = '@DOSMaxBot'
+owner_username = '@Itzaahil1'
 
 def initialize_db():
     conn = sqlite3.connect('bot_data.db')
